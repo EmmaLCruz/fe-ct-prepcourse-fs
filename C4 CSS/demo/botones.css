@@ -1,0 +1,12 @@
+.BotonRojo{
+    background-color: brown;
+    color: aqua;
+    font-weight: 600;
+}
+
+.BotonRojo:hover{
+    background-color: aqua;
+    color: brown;
+    font-weight: 100;
+    cursor: pointer;
+}
