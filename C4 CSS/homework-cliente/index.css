@@ -1,0 +1,161 @@
+body{
+    width: 1920px;
+    height: 1150px;
+    background-color: black;
+
+    border: 2px solid white;
+    color: white;
+}
+
+header{
+    display: flex;    
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+#caja-rosada{
+    width: 781px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #FD1EBD;
+    margin-top: 71px;
+    margin-bottom: 48px;
+}
+
+#caja-amarilla{
+    width: 643px;
+    height: 55px;
+    flex-shrink: 0;
+    background-color: #fffd38;
+}
+
+#contenedor-practice-autor{
+    width: 725px;
+    height: 746px;
+    flex-shrink: 0;
+    margin-left: 61px;
+    border-left: 2px solid white;
+    padding-left: 71px;
+}
+
+#contenedor-practice-autor h1{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 50.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+        
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+#ui {
+    position: relative;
+    bottom: 55px;
+
+}
+
+#contenedor-practice-autor span{
+    color: #fff;
+    font-family: Space;
+    font-size: 289.846px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+#practice {
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 163.445px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 130px;
+}
+
+#designedlove {
+    color: #fff;
+    font-family: "Space Grotesk";
+    font-size: 43.493px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#contenedor-design-circulos-rosa {
+    display: flex;
+    position: relative;
+    bottom: 110px;
+}
+
+#contenedor-design-circulos-rosa img {
+    width: 55px;
+    height: 55px;
+    margin-left: 17px;
+}
+
+#autor {
+    color: #fffd38;
+    font-family: "Space Grotesk";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+#contenedor-autor-avatar {
+    display: flex;
+    position: relative;
+    bottom: 110px;
+    margin-top: 45px;
+}
+
+#contenedor-numero-4 {
+    width: 330px;
+    height: 426px;
+    display: flex;
+    position: relative;
+    right: 100px;
+    top: 200px;
+}
+#imgcuatro {
+    width: 110px;
+    height: 110px;
+}
+
+#contenedor-palabras-4 {
+    display: flex;
+    
+}
+
+#caja-amarilla-bottom {
+    width: 121.746px;
+    height: 33.835px;
+    background-color: #fffd38;
+    position: relative;
+    bottom: 109px;
+    z-index: -1;
+}
+
+#estrella {
+    position: relative;
+    bottom: 69px;
+    margin-right: 81px;
+    
+}
